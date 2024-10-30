@@ -4,6 +4,11 @@ class MyHomePage extends StatelessWidget {
     final String npm = '23045592'; // NPM
     final String name = 'Christopher Matthew Hendarson'; // Nama
     final String className = 'PBP C'; // Kelas
+    final List<ItemHomepage> items = [
+        ItemHomepage("Lihat Mood", Icons.mood),
+        ItemHomepage("Tambah Mood", Icons.add),
+        ItemHomepage("Logout", Icons.logout),
+    ];
 
     MyHomePage({super.key});
 
@@ -84,13 +89,7 @@ class MyHomePage extends StatelessWidget {
         ),
       ),
     );
-    }
-    }
-    final List<ItemHomepage> items = [
-        ItemHomepage("Lihat Mood", Icons.mood),
-        ItemHomepage("Tambah Mood", Icons.add),
-        ItemHomepage("Logout", Icons.logout),
-    ];
+  }
 }
 
 class ItemCard extends StatelessWidget {
