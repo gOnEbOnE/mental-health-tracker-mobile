@@ -5,7 +5,7 @@ import 'package:mental_health_tracker/widgets/mood_card.dart';
 class MyHomePage extends StatelessWidget {
   final String npm = '2306245592'; // NPM
   final String name = 'Christopher Matthew Hendarson'; // Nama
-  final String className = 'PBP B'; // Kelas
+  final String className = 'PBP C'; // Kelas
 
   final List<ItemHomepage> items = [
          ItemHomepage("Lihat Mood", Icons.mood),
@@ -14,7 +14,7 @@ class MyHomePage extends StatelessWidget {
      ];
 
   MyHomePage({super.key});
-  
+
   @override
   Widget build(BuildContext context) {
     // Scaffold menyediakan struktur dasar halaman dengan AppBar dan body.
